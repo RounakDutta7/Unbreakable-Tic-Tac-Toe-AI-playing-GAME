@@ -186,7 +186,7 @@ void aimove() {
 				if(goodChoices.empty())
 					cornerChoice(alreadyMoved);
 				else
-					board[goodChoices[rand() % goodChoices.size()]] == 'X';
+					board[goodChoices[rand() % goodChoices.size()]] = 'X';
 			}
 		}
 	}
